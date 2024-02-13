@@ -60,8 +60,6 @@ body {
 
 /*header section*/
 
-
-
 .logo-box {
   padding-top: 5px;
   margin-top: 10px;
@@ -132,7 +130,6 @@ a:focus {
 }
 
 .heading_style {
-  
   font-size: 40px;
   padding-left: 3px;
   font-weight: 500;
@@ -142,15 +139,20 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.custom_nav-container .navbar-toggler {}
+.custom_nav-container .navbar-toggler {
+}
 
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {}
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+}
 
-.custom_nav-container .nav_search-btn {}
+.custom_nav-container .nav_search-btn {
+}
 
-.navbar {}
+.navbar {
+}
 
-.nav-link:hover {}
+.nav-link:hover {
+}
 
 .navbar-brand,
 .navbar-brand:hover {
@@ -284,14 +286,12 @@ a:focus {
   background-color: #0a0057;
 }
 
-
 /* end slider section */
 
 /* about section */
 .about_section {
   padding-top: 105px;
   position: relative;
-
 }
 
 .about_section::before {
@@ -311,9 +311,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
-
 }
 
 .about_detail-container {
@@ -369,7 +366,6 @@ a:focus {
   position: absolute;
   right: 0;
   bottom: 25%;
-
 }
 
 .about_img-box::after {
@@ -384,10 +380,6 @@ a:focus {
   background-position: 15px;
   background-repeat: no-repeat;
 }
-
-
-
-
 
 /* end about section */
 
@@ -438,7 +430,8 @@ a:focus {
 
 /* shop section */
 
-.shop_section {}
+.shop_section {
+}
 
 .shop_section .row {
   margin-top: 100px;
@@ -590,7 +583,6 @@ a:focus {
   margin-top: 20px;
 }
 
-
 .contact_form-container::before {
   content: "";
   width: 50px;
@@ -601,35 +593,31 @@ a:focus {
   /* bottom: 25%; */
   left: -50px;
   top: 15%;
-
 }
 
 /* end contact_section */
 
-
 /* whatsapp */
-.whatsappcontainer{
-
-  text-decoration: none;
-    margin-bottom: 20px;
-    margin-left: 1200px;
+.whatsappcontainer {
+    text-decoration: none;
+    z-index: 500;
     width: 100px;
+    position: fixed;
+    bottom: 150px; /* Adjust this value to set the distance from the bottom */
+    left: 20px; /* Adjust this value to set the distance from the right */
+}
 
-    
+@media (min-width: 768px) {
+  .whatsappcontainer {
+    text-decoration: none;
+    z-index: 500;
+    width: 100px;
+    position: fixed;
+    bottom: 60px; /* Adjust this value to set the distance from the bottom */
+    left: 20px; /* Adjust this value to set the distance from the right */
+}
 
-
-    
-    }
-
-
-
-/* phone section */
-.phonecontainer{
-  text-decoration: none;
-  margin-bottom: 20px;
-  margin-left: 1210px;
-  width: 100px;
-
+  
 }
 
 /* info section */
@@ -639,15 +627,13 @@ a:focus {
   color: #fff;
   background-image: url(../images/info-bg.png);
   background-size: 100% 101%;
-
+  position: relative;
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 
 .info_section h5 {
-
   font-size: 22px;
-
 }
 
 .info_section a,
