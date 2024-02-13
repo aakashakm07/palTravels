@@ -285,6 +285,22 @@ a:focus {
 .slider_section .carousel-indicators .active {
   background-color: #0a0057;
 }
+.sliderimg{
+width: 600px;
+
+}
+@media (max-width: 768px ){
+  .sliderimg{
+    width: 100px;
+  
+    
+    z-index: 200;
+}
+
+
+
+
+}
 
 /* end slider section */
 
