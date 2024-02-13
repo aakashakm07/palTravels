@@ -601,7 +601,7 @@ a:focus {
 .whatsappcontainer {
     text-decoration: none;
     z-index: 500;
-    width: 100px;
+    width: 405px;
     position: fixed;
     bottom: 150px; /* Adjust this value to set the distance from the bottom */
     left: 20px; /* Adjust this value to set the distance from the right */
@@ -611,14 +611,37 @@ a:focus {
   .whatsappcontainer {
     text-decoration: none;
     z-index: 500;
-    width: 100px;
+    width: 100%;
     position: fixed;
-    bottom: 60px; /* Adjust this value to set the distance from the bottom */
-    left: 20px; /* Adjust this value to set the distance from the right */
+    bottom: 65px; /* Adjust this value to set the distance from the bottom */
+    left: 40px; /* Adjust this value to set the distance from the right */
 }
 
   
 }
+
+
+
+  @media (min-width: 768px){
+  .phonecontainer{
+  text-decoration: none;
+  z-index: 500;
+  width: 100%;
+  position: fixed;
+  bottom: 65px; /* Adjust this value to set the distance from the bottom */
+  right: 85px; 
+  
+  }
+  }
+
+
+
+
+
+
+
+
+
 
 /* info section */
 .info_section {
