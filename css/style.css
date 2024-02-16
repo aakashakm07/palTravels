@@ -235,7 +235,9 @@ a:focus {
   font-weight: bold;
   margin: 35px 0;
   color: #000002;
-  margin-left: 60px;
+  margin-left: 20px;
+  font-size: 20px;
+
 }
 
 .read-btn,
