@@ -693,10 +693,21 @@ width: 600px;
   margin-top: 10px;
 }
 
+
 .info_nav nav {
   width: 70%;
   margin: 0 auto;
 }
+
+.info_nav .review {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+
 
 .info_nav ul {
   display: flex;
@@ -739,5 +750,8 @@ width: 600px;
 .footer_section a {
   color: #fff;
 }
+
+
+
 
 /* end footer section*/
